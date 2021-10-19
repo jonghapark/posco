@@ -127,7 +127,7 @@ class ScanscreenState extends State<Scanscreen> {
       List<LogData> list, String devicename, int battery) async {
     // var client = http.Client();
     // print(socket.port);
-    Socket socket = await Socket.connect('175.126.232.236', 9981);
+    Socket socket = await Socket.connect('52.78.191.70', 9971);
     print('port Number');
     print(socket.port);
     if (socket != null) {
